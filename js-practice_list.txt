@@ -1,0 +1,114 @@
+
+
+Arithmetic  Operators : (+ , - , * , / , % , ++ , --)
+Assignment  Operators : (= , -= , += , *= , /= , %=)
+CompariSion Ooerators : (== , === , != , !== , !=== , < , > , <= , >= )
+Logical     Operators : (&& , || , !)
+Conditional Operators : (ternary_Operators , if_elseif_else , switch_case)
+BitWaise    Operators : (& , ~ , ^ , << , >> , >>>)
+String      Operators = Assignment  Operators
+
+
+A . ++ deya let er sathe 1 jog kore ;
+    ex : x++ 
+        or x = x + 1
+
+B . -- deya let er sathe 1 beyog kore ;
+    ex : x-- 
+        or x = x - 1
+
+c . += deya let er sathe jog kora hoy,
+    ex : x+=z
+        or x = x + z
+
+D . += deya let er sathe beyog kora hoy,
+    ex : x-=z
+        or x = x - z
+
+E. **= deya let er pawor assign kore number ba let k deya hoy.
+    ex : x**=z
+        or x = x ^ z
+
+
+
+1 . koteson er vitore same koteson dite cile (\)Back-word slace use korte hobe.
+    tobe prothom a ('') dile vetore ("") dite hobe ,
+    and vetore (\) back-word slace dice cile 2 bar (\\) slace dite hobe;
+
+    ex : let song = "buje na \"se\" buje na" 
+    ex : let song = "buje na 'se' buje na"
+    ex : let song = "buje na \\se\\ buuje na"
+
+2 . Amra jodi consol a line brack dite cai tahole (\n) deya brack kora jabe.
+
+    ex : let song = "buje na \n se buje na"
+
+3 . ama jodi kono word er obosthan jante cai tahole imdexOf() use korte pari.
+    tobe ak word jodi onak thake tobe prothom ta asbe.
+    and 0 theke gona suru korbe.
+
+    ex : let song = "buje na se buje na"
+         consol.log(song.indexOf('na'));
+
+4 . Split() use kore amara protita word a  koteson ('') dite pari.
+    sentence k array moto kaj korate pari ,
+    and word na sentence remove korte pari , 
+
+    ex : let song = "buje na se buje na"
+         1. consol.log(emon.Split(' '));
+         2. consol.log(emon.Split('na'));
+
+5 . parseFloat() deya amara number k dosomik (.) soho show koratw
+    pari .
+    and parseInt() deya amra number k dosomik (.) bad deya purno
+    songkha banate pari.
+
+    ex : num = 2.654
+         1.consol.log(parseFloat(num))
+         2.consol.log(parseInt(num))
+
+6 . streng k number a convart korte caile samne akta (+) dite
+    hoy. abar parseInt() and parseFloat() deya o string k number 
+    kora jay.
+
+    ex : num = '5236'
+         num = +num
+    console.log(typeOf(num))
+    ex : num = parseInt(num)
+    console.log(typeOf(num))
+
+7 . number k string a convart korte cile samne (''+) dite hoy.
+
+    ex : num = 89;
+    num = ''+num;
+    console.log(typeOf(num))
+
+8 . toFixed() deya amra float anumber k (.) Dosomik er pore
+    eccha moto fixed korte pari .
+    toPrecision() deya amra float anumber k (.) Dosomik er age
+    eccha moto fixed korte pari.
+    ex : num = 25.545848646464
+         consol.log(num.toFixed(2))
+    ex : num = 25.545848646464
+         consol.log(num.toPrecision(2))
+
+\\ Math  Function.
+
+9 . Math.abs() deya amra absolute number korte pari .
+
+    ex : num = -25;
+         num = MAth.abs(num)
+         consol.log(num)
+
+10 . Math.round() deya amra Float number k purno number
+     kote pari . Tobe jodi float number ( 2.(0-5 hoy)) tobe
+     se 2 hoya jabe , and  Tobe jodi float number ( 2.(6-9 hoy))
+     tobe se 3 hoya jabe.
+
+     ex : num = 25.5
+          num = Math.round(num)
+          consol.log(num)
+
+
+
+          class 6 suru koro
